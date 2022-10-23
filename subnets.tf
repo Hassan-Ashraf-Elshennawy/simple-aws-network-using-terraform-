@@ -1,4 +1,4 @@
-resource "aws_subnet" "subnet_public" {
+resource "aws_subnet" "subnet_public_1" {
   vpc_id     = aws_vpc.vpc-tf.id
   cidr_block = "10.0.1.0/24"
   availability_zone = "us-east-1a"
